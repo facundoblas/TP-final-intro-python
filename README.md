@@ -1,2 +1,2 @@
-# TP-final-intro-python
-TP final: ticketera y TaTeTi
+Facundo Blas
+facundoblas2020@gmail.com
