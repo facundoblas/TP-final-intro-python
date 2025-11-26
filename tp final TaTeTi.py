@@ -1,3 +1,5 @@
+import os
+
 tablero = {
 '1': '1', '2': '2', '3': '3',
 '4': '4', '5': '5', '6': '6',
@@ -135,6 +137,5 @@ def checkar_resultado():
 
 def tablero_lleno():
     return all(valor in ('X', 'O') for valor in tablero.values())
-
 
 main()
