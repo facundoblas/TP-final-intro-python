@@ -6,6 +6,7 @@ tablero = {
 
 #inciciar juego
 def main():
+    os.system('cls')
     print ('''\n \n══════ Nueva partida ══════
          Ta Te Ti''')
     
@@ -89,11 +90,13 @@ def tablero_act():
     
 def actualizar_tablero1():
     elección_p1 = jugador1_pos()
+    os.system('cls')
     tablero[elección_p1] = 'X'
     tablero_act()
     
 def actualizar_tablero2():
     elección_p2 = jugador2_pos()
+    os.system('cls')
     tablero[elección_p2] = 'O'
     tablero_act()
     
@@ -132,5 +135,6 @@ def checkar_resultado():
 
 def tablero_lleno():
     return all(valor in ('X', 'O') for valor in tablero.values())
+
 
 main()
